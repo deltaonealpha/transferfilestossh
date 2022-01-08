@@ -1,0 +1,282 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<link rel="stylesheet" href="https://unpkg.com/plyr@3/dist/plyr.css" />
+<script src="https://unpkg.com/plyr@3"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Watch - Cipherflix</title>
+    <link rel="icon" type="image/png" sizes="640x664" href="{% static 'assets/img/faviconcipherflix.png' %}">
+    <link rel="icon" type="image/png" sizes="640x664" href="{% static 'assets/img/faviconcipherflix.png' %}">
+    <link rel="icon" type="image/png" sizes="640x664" href="{% static 'assets/img/faviconcipherflix.png' %}">
+    <link rel="icon" type="image/png" sizes="640x664" href="{% static 'assets/img/faviconcipherflix.png' %}">
+    <link rel="icon" type="image/png" sizes="640x664" href="{% static 'assets/img/faviconcipherflix.png' %}">
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="{% static 'assets/css/cypherflix.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Footer-Basic.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Footer-Dark.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Horizontal-scrolling-cards-for-mobile-apps.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/untitled.compiled.css' %}">
+</head>
+
+<body style="background: #141414;text-align: left;">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="background: transparent;border-bottom-style: none;backdrop-filter: blur(15px);">
+        <div class="container-fluid"><a class="navbar-brand" href="/" style="color: #d1d1d1;"><img src="{% static 'assets/img/cipherflixlogo.png' %}" style="height: 35px;filter: invert(0%);"></a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="text-align: left;"><a class="text-uppercase" href="/tv" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">TV SHOWS</a><a class="text-uppercase" href="/movies" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">MOVIES</a><a class="text-uppercase" href="/faq" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">FAQ</a><a class="text-uppercase" href="/pricing" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">PRICING</a><a class="text-uppercase" href="/contact" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">CONTACT</a>
+                <ul class="navbar-nav ms-auto" style="text-align: left;margin-left: auto;">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link active" href="/search" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;padding-right: 10px;padding-left: 10px;color: #ffffff;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-search" style="font-weight: bold;font-size: 16px;margin-bottom: 1px;color: #ffffff;">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="10" cy="10" r="7"></circle>
+                                <line x1="21" y1="21" x2="15" y2="15"></line>
+                            </svg></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/profile" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;padding-right: 10px;padding-left: 10px;color: #ffffff;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-users" style="font-weight: bold;font-size: 16px;margin-bottom: 1px;color: #ffffff;">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <a href="../play/{{ headermovie.id }}">
+    <header class="masthead" style="height: 615px;background: linear-gradient(transparent 0%, #141414 79%, rgba(1,1,1,0.94) 99%), url({{ headermovie.poster_file.url }});background-size: auto, cover;">
+        <div class="container" style="text-align: left;">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-xl-12 mx-auto position-relative" style="text-align: left;">
+                    <div class="site-heading" style="text-align: left;padding-bottom: 0px;padding-top: 150px;"></div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-6 position-relative">
+                    <h1 class="text-truncate" style="font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 35px;">{{ headermovie.title }}<br></h1>
+                    <p style="margin-bottom: 0px;margin-top: -10px;font-family: 'Open Sans', sans-serif;color: #ffffff;font-size: 16px;">{{ headermovie.description|slice:":185" }}...<br></p>
+                    <p class="lead font-monospace" style="margin-bottom: 0px;font-family: 'Open Sans', sans-serif;color: #ffffff;margin-top: 5px;font-size: 15px;">GENRE: {{ headermovie.genre_tags }}<br>RATING: {{ headermovie.content_rating }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="z-index: 0;margin-top: -15px;">
+            <h1 style="font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 25px;margin-top: 65px;">Trailer<br></h1>
+            <div class="row">
+                <div class="col"><video width="560" height="315" style="width: 300px;position: relative;left: 1px;height: 170px;border-radius: 5px;z-index: 1;" poster="{{ headermovie.poster_file.url }}" loop="" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                        <source src="{{ headermovie.trailer_file.url }}" type="video/webm">
+                    </video></div>
+            </div>
+        </div>
+    </header></a>
+    <div style="margin-bottom: 15px;">
+        <div class="container" style="z-index: 0;padding-bottom: 25px;">
+            <h1 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;margin-bottom: -15px;font-size: 25px;margin-top: 65px;">Watched Recently</h1>
+        </div>
+        <a href="/play/{{ randommovie.id }}">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xl-12 col-xxl-12">
+                    <div style="width: 100%;background: #1f1f1f;border-radius: 5px;padding: 15px;padding-bottom: 20px;">
+                        <p class="text-truncate" style="margin-bottom: 0px;font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 16px;margin-top: -15px;padding-bottom: 0px;"><img style="border-radius: 5px;width: 45px;height: 45px;margin-right: 9px;margin-top: 15px;" src="{{ randommovie.poster_file.url }}">{{ randommovie.title }}<br></p>
+                        <p class="text-truncate text-uppercase" style="font-family: 'Nunito Sans', sans-serif;color: #adadad;font-size: 10px;margin-bottom: 0px;margin-top: -20px;margin-left: 54px;">{{ randommovie.genre_tags }}<br></p>
+                    </div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <div style="margin-bottom: 35px;">
+        <div class="container" style="z-index: 0;padding-bottom: 25px;">
+            <h1 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 25px;margin-top: 65px;margin-bottom: -15px;"><span class="float-end" style="color: #00c1e6;font-size: 15px;"><a href="/whatsnew" style="color:#39a3ff;">View More</a></span>Most Viewed</h1><div>
+    <div class="post-preview"></div>
+    <div id="index-1" class="containerxt" style="padding-left: 50px;padding-right: 0px;width: 100%;padding-top: 25px;padding-bottom: 50px;z-index: 0;margin-top: -40px;"><a class="item" style="text-align: left;width: 0px;height: 0px;margin-left: -45px;">
+        </a>
+{% for i in latestmovie10 %}
+    <a class="item" style="margin-right: 15px;text-align: left;" href="../play/{{ i.id }}">
+        <div class="horitzontalScrollContent me-3 ms-2" style="text-align: left;">
+        <div class="row" style="text-align: left;">
+            <div class="col text-center" style="padding-right: 0px;padding-left: 0px;text-align: left;">
+            <div class="videohover" style="overflow: hidden;background: #1f1f1f;border-radius: 5px;">
+                <video width="560" height="315" style="width: 300px;position: relative;left: 1px;height: 170px;border-radius: 5px;z-index: 1;margin-top: 5px;" poster="{{ i.poster_file.url }}" loop onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                <source src="{{ i.trailer_file.url }}" type="video/webm"></video>
+                <div class="hide" style="padding-top: 15px;padding-bottom: 15px;padding-left: 15px;padding-right: 15px;">
+                    <div style="text-align: left;margin-bottom: 10px;">
+                        <h2 class="post-title" style="color: #d1d1d1;font-family: Arimo, sans-serif;font-size: 17px;text-align: left;margin-top: -10px;margin-bottom: 10px;">{{ i.title }}</h2>
+                        <button class="btn" type="button" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 10px;background: rgb(67,67,67);border-radius: 10px;border-style: none;color: #d1d1d1;font-weight: bold;font-size: 15px;margin-bottom: 0px;margin-right: 9px;"><svg class="icon icon-tabler icon-tabler-player-play" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 2px;">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M7 4v16l13 -8z"></path>
+                        </svg></button>
+                        <button class="btn" type="button" onclick="alert('Added to your watchlist');" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 10px;background: rgb(67,67,67);border-radius: 10px;border-style: none;color: #d1d1d1;font-weight: bold;font-size: 15px;margin-bottom: 0px;margin-right: 9px;"><svg class="icon icon-tabler icon-tabler-plus" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 2px;">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg></button>
+                        <button class="btn" type="button" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 10px;background: rgb(67,67,67);border-radius: 10px;border-style: none;color: #d1d1d1;font-weight: bold;font-size: 15px;margin-bottom: 0px;margin-right: 9px;"><svg class="icon icon-tabler icon-tabler-info-circle" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 2px;">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                        <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                        </svg></button>
+                    </div>
+                </div>
+            </div>
+        </div></div></div>
+    </a>
+{% endfor %}
+</div>
+    <div class="post-preview" style="text-align: right;margin-top: -66px;"></div>
+</div>
+        </div>
+    </div>
+    <div style="margin-bottom: 35px;background: #1f1f1f;padding-top: 50px;padding-bottom: 114px;">
+        <a href="tv/{{ randomtv.id }}">
+        <div class="container">
+            <div class="row" style="margin-bottom: 15px;">
+                <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="background: #1f1f1f;border-radius: 5px;padding-top: 15px;padding-right: 15px;padding-bottom: 15px;padding-left: 15px;">
+                    <div style="border-radius: 5px;padding: 0px;background: linear-gradient(92deg, #101010, #303030);"><img style="width: 100%;height: 350px;border-radius: 5px;object-fit: cover;object-position: top;" src="{{ randomtv.poster_file.url }}">
+                        <div style="padding: 10px;margin-top: -100px;margin-bottom: -15px;">
+                            <h1 class="text-truncate" style="font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 35px;margin-bottom: 0px;">{{ randomtv.title }}<br></h1>
+                            <p class="text-truncate" style="font-family: 'Open Sans', sans-serif;color: #ffffff;font-size: 16px;margin-bottom: 0px;margin-top: 5px;">{{ randomtv.description }}<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <div style="background: transparent;padding-bottom: 0px;margin-bottom: 35px;margin-top: -135px;">
+        <div class="container">
+            <div class="row" style="margin-bottom: 15px;">
+                <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="border-radius: 5px;padding-top: 15px;padding-right: 15px;padding-bottom: 15px;padding-left: 15px;">
+                    <div style="border-radius: 5px;padding: 0px;">
+                        <div class="row">
+                            {% for i in randomtv10 %}
+                            <div class="col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                <a href="playtv/{{ randomtv.id }}/{{ i.id }}">
+                                    <div style="height: 195px;border-radius: 5px;padding: 0px;background: linear-gradient(92deg, #101010, #303030);">
+                                        <div style="height: 100px;background: linear-gradient(#121212, rgba(48,48,48,0.8) 25%, rgba(48,48,48,0.6) 40%, rgba(48,48,48,0.4) 60%, rgba(48,48,48,0.2) 80%, rgba(48,48,48,0) 100%);border-radius: 5px;padding: 0px;position: relative;z-index: 100;width: 100%;"></div>
+                                        <div><img style="width: 100%;height: 150px;border-radius: 5px;margin-top: -100px;" src="{{ randomtv.poster_file.url }}"></div>
+                                        <div style="padding: 10px;font-weight: bold;">
+                                            <p class="text-truncate" style="margin-bottom: 0px;font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 16px;margin-top: 0px;">{{ i.title }}<br></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-bottom: 35px;">
+        <div class="container" style="z-index: 0;padding-bottom: 25px;">
+            <h1 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 25px;margin-top: 65px;margin-bottom: -15px;"><span class="float-end" style="color: #00c1e6;font-size: 15px;"><a href="/tv" style="color:#39a3ff;">View More</a></span>TV Shows</h1><div>
+    <div class="post-preview"></div>
+    <div id="index-1" class="containerxt" style="padding-left: 50px;padding-right: 0px;width: 100%;padding-top: 25px;padding-bottom: 50px;z-index: 0;margin-top: -40px;"><a class="item" style="text-align: left;width: 0px;height: 0px;margin-left: -45px;">
+        </a>
+        {% for i in tvpopular10 %}
+        <a class="item" style="margin-right: 15px;text-align: left;" href="../tv/{{ i.id }}">
+            <div class="horitzontalScrollContent me-3 ms-2" style="text-align: left;">
+            <div class="row" style="text-align: left;">
+                <div class="col text-center" style="padding-right: 0px;padding-left: 0px;text-align: left;">
+                <div class="videohover" style="overflow: hidden;background: #1f1f1f;border-radius: 5px;">
+                    <video width="560" height="315" style="width: 300px;position: relative;left: 1px;height: 170px;border-radius: 5px;z-index: 1;margin-top: 5px;" poster="{{ i.poster_file.url }}" loop onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                    <source src="{{ i.trailer_file.url }}" type="video/webm"></video>
+                    <div class="hide" style="padding-top: 15px;padding-bottom: 15px;padding-left: 15px;padding-right: 15px;">
+                        <div style="text-align: left;margin-bottom: 10px;">
+                            <h2 class="post-title" style="color: #d1d1d1;font-family: Arimo, sans-serif;font-size: 17px;text-align: left;margin-top: -10px;margin-bottom: 10px;">{{ i.title }}</h2>
+                            <button class="btn" type="button" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 10px;background: rgb(67,67,67);border-radius: 10px;border-style: none;color: #d1d1d1;font-weight: bold;font-size: 15px;margin-bottom: 0px;margin-right: 9px;"><svg class="icon icon-tabler icon-tabler-player-play" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 2px;">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M7 4v16l13 -8z"></path>
+                            </svg></button>
+                            <button class="btn" type="button" onclick="alert('Added to your watchlist');" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 10px;background: rgb(67,67,67);border-radius: 10px;border-style: none;color: #d1d1d1;font-weight: bold;font-size: 15px;margin-bottom: 0px;margin-right: 9px;"><svg class="icon icon-tabler icon-tabler-plus" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 2px;">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg></button>
+                            <button class="btn" type="button" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 10px;background: rgb(67,67,67);border-radius: 10px;border-style: none;color: #d1d1d1;font-weight: bold;font-size: 15px;margin-bottom: 0px;margin-right: 9px;"><svg class="icon icon-tabler icon-tabler-info-circle" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 2px;">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <circle cx="12" cy="12" r="9"></circle>
+                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                            </svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div></div></div>
+        </a>
+    {% endfor %} 
+</div>
+    <div class="post-preview" style="text-align: right;margin-top: -66px;"></div>
+</div>
+        </div>
+    </div>
+    <div style="margin-bottom: 35px;">
+        <div class="container" style="z-index: 0;padding-bottom: 35px;">
+            <h1 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;margin-bottom: -15px;font-size: 25px;margin-top: 65px;">Ebooks<span class="float-end" style="color: #00c1e6;font-size: 15px;"><a href="/ebooks" style="color:#39a3ff;">View More</a></span></h1>
+        </div>
+        <div class="container">
+            <div class="row" style="margin-bottom: 15px;">
+                {% for i in ebook10 %}
+                <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
+                    <a href="/read/{{ i.id }}">
+                    <div style="border-radius: 5px;padding-top: 10px;background: linear-gradient(92deg, #101010, #303030);">
+                        <div style="padding: 10px;margin-top: 15px;font-weight: bold;">
+                            <p class="text-truncate text-uppercase" style="margin-bottom: 0px;margin-top: -10px;font-family: 'Nunito Sans', sans-serif;color: #adadad;font-size: 10px;">EBOOK</p>
+                            <p class="text-truncate" style="margin-bottom: 0px;font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 16px;margin-top: 0px;">{{ i.title }}<br></p>
+                            <p class="text-truncate" style="margin-bottom: 0px;font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 14px;margin-top: 0px;">By {{ i.author }}<br></p>
+                        </div>
+                    </div></a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="container" style="text-align: left;">
+        <div class="col-md-12 col-xl-12 col-xxl-12">
+            <div style="width: 100%;background: #373737;border-radius: 5px;padding: 15px;padding-bottom: 20px;">
+                <p class="text-truncate" style="margin-bottom: 0px;font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 16px;padding-bottom: 0px;margin-top: 0px;">PAY IN CRYPTO<br></p>
+                <p class="text-truncate text-uppercase" style="font-family: 'Nunito Sans', sans-serif;color: #adadad;font-size: 10px;margin-bottom: 0px;margin-top: 0px;margin-left: 0px;">Bitcoin, Bitcoin Cash, Dai, Dogecoin, Ethereum, Litecoin, USD Coin.<br></p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-basic" style="background: #141414;padding-bottom: 0px;">
+        <footer class="footer-dark" style="margin-bottom: -5px;background: #181718;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <h3 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 18px;">Browse</h3>
+                        <ul style="margin-top: -9px;">
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/movies">Movies</a></li>
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/tv">TV Shows</a></li>
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/ebooks">EBooks</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 18px;">About</h3>
+                        <ul style="margin-top: -9px;">
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/faq">FAQ</a></li>
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/pricing">Pricing</a></li>
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/support">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 18px;">Cipherflix</h3>
+                        <p style="font-family: 'Nunito Sans', sans-serif;font-size: 15px;color: #adadad;margin-top: -9px;margin-bottom: 0px;">Cipherflix is an online streaming platform that offers you a variety of entertainment: movies, TV shows, kid's shows, and free e-books. You can watch as much as you want, whenever you want. There’s entertainment for all.</p>
+                    </div>
+                </div>
+                <p style="text-align: center;margin-bottom: 0px;"><img src="{% static 'assets/img/cipherflixlogo.png' %}" style="height: 35px;"></p>
+                <p class="copyright" style="margin-top: 0px;padding-top: 0px;">Cipherflix © 2021</p>
+            </div>
+        </footer>
+        <h2 class="post-title" style="color: #d1d1d1;font-family: 'Open Sans', sans-serif;font-size: 20px;text-align: center;"></h2>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'assets/js/clean-blog.js' %}"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container" style="margin-top: 135px;">
+    <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 35px;margin-top: -5px;">All TV Shows</h2>
+    <div class="row">
+        {% for movies in movie %}
+        <div class="col-md-3" style="margin-bottom: 15px;">
+            <a class="" style="margin-right: 15px;text-align: left;" href="/tv/{{movies.id}}">
+                <div class="horitzontalScrollContent me-3 ms-2" style="text-align: left;">
+                    <div class="row" style="text-align: left;">
+                        <div class="col text-center" style="padding-right: 0px;padding-left: 0px;text-align: left;">
+                            <div class="videohover" style="overflow: hidden;background: #1f1f1f;border-radius: 5px;">
+                                <image src="{{movies.poster_file.url}}" style="width:100%;height:150px;object-fit: cover;object-position: center;">
+                                <div class="" style="padding-top: 15px;padding-bottom: 15px;padding-left: 15px;padding-right: 15px;">
+                                    <div style="text-align: left;margin-bottom: 10px;">
+                                        <h2 class="post-title" style="color: #d1d1d1;font-family: Arimo, sans-serif;font-size: 17px;text-align: left;margin-top: 9px;margin-bottom: 10px;">{{movies.title}}</h2>
+                                        <h2 class="post-body" style="color: #d1d1d1;font-family: Arimo, sans-serif;font-size: 14px;font-weight:normal;text-align: left;margin-top: -10px;margin-bottom: 10px;">{{movies.description|truncatechars:50}}</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>{% endfor %}
+    </div>
+    {% if movie.has_other_pages %}
+    <nav>
+        <ul class="pagination">
+            <style>
+                .paginationbutton{
+                    background-color: #1e2123;
+                    color: #d1d1d1;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color:  #adadad;
+                    margin-right: 5px;
+                }
+                .paginationbuttoncurrent{
+                    background-color: #adadad;
+                    color: #181718;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color:  #adadad;
+                    margin-right: 5px;
+                    border-radius: 3px;
+                }
+            </style>
+            {% if movie.has_previous %}
+                <li class="page-item"><a class="page-link paginationbutton" style="border-top-left-radius: 3px;border-bottom-left-radius: 3px;" href="?page={{ movie.previous_page_number }}" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+            {% else %}
+                <li class="page-item disabled"><a class="page-link paginationbutton" style="border-top-left-radius: 3px;border-bottom-left-radius: 3px;" href="#" aria-label="Previous"><span aria-hidden="true"><</span></a></li>
+            {% endif %}
+            {% for i in movie.paginator.page_range %}
+                {% if movie.number == i %}
+                    <li class="page-item"><a class="page-link paginationbuttoncurrent"><span>{{ i }} <span class="sr-only">(current)</span></span></a></li>
+                {% else %}
+                    <li class="page-item"><a class="page-link paginationbutton" href="?page={{ i }}">{{ i }}</a></li>
+                {% endif %}
+            {% endfor %}
+            {% if movie.has_next %}
+                <li class="page-item"><a class="page-link paginationbutton" style="border-top-right-radius: 3px;border-bottom-right-radius: 3px;" href="?page={{ movie.next_page_number }}" aria-label="Next"><span aria-hidden="true">></span></a></li>
+            {% else %}
+                <li class="page-item disabled"><a class="page-link paginationbutton" style="border-top-right-radius: 3px;border-bottom-right-radius: 3px;" href="#" aria-label="Next"><span aria-hidden="true">></span></a></li>
+            {% endif %}
+        </ul>
+    </nav>
+{% endif %}
+</div>
+{% endblock content %}

@@ -1,0 +1,162 @@
+{% load static %}
+{% load analytical %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% analytical_head_top %}
+    <meta charset="utf-8">
+<link rel="stylesheet" href="https://unpkg.com/plyr@3/dist/plyr.css" />
+<script src="https://unpkg.com/plyr@3"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cipherflix</title>
+    <link rel="icon" type="image/png" sizes="640x664" href="{% static 'assets/img/faviconcipherflix.png' %}">
+    <link rel="icon" type="image/png" sizes="640x664" href="{% static 'assets/img/faviconcipherflix.png' %}">
+    <link rel="icon" type="image/png" sizes="640x664" href="{% static 'assets/img/faviconcipherflix.png' %}">
+    <link rel="icon" type="image/png" sizes="640x664" href="{% static 'assets/img/faviconcipherflix.png' %}">
+    <link rel="icon" type="image/png" sizes="640x664" href="{% static 'assets/img/faviconcipherflix.png' %}">
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="{% static 'assets/css/cypherflix.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Footer-Basic.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Footer-Dark.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Horizontal-scrolling-cards-for-mobile-apps.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/untitled.compiled.css' %}">
+    {% analytical_head_bottom %}
+</head>
+
+<body style="background: #141414;text-align: left;">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="background: transparent;border-bottom-style: none;backdrop-filter: blur(15px);">
+        <div class="container-fluid"><a class="navbar-brand" href="/" style="color: #d1d1d1;"><img src="{% static 'assets/img/cipherflixlogo.png' %}" style="height: 35px;filter: invert(0%);"></a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="text-align: left;"><a class="text-uppercase" href="/tv" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">TV SHOWS</a><a class="text-uppercase" href="/movies" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">MOVIES</a><a class="text-uppercase" href="/faq" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">FAQ</a><a class="text-uppercase" href="/pricing" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">PRICING</a><a class="text-uppercase" href="/contact" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">CONTACT</a>
+                <ul class="navbar-nav ms-auto" style="text-align: left;margin-left: auto;">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link active" href="/search" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;padding-right: 10px;padding-left: 10px;color: #ffffff;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-search" style="font-weight: bold;font-size: 16px;margin-bottom: 1px;color: #ffffff;">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="10" cy="10" r="7"></circle>
+                                <line x1="21" y1="21" x2="15" y2="15"></line>
+                            </svg></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/profile" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;padding-right: 10px;padding-left: 10px;color: #ffffff;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-users" style="font-weight: bold;font-size: 16px;margin-bottom: 1px;color: #ffffff;">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="margin-top: 85px;">
+        <div class="row">
+            <div class="col-xl-5">
+                {% for episode in episodes %}
+                    <a href="/playtv/{{ objmain.id }}/{{ episode.id }}">
+                        <div style="width: 100%;background: #1f1f1f;border-radius: 5px;padding: 15px;padding-bottom: 20px;margin-bottom: 15px;">
+                            <p class="text-truncate" style="margin-bottom: 0px;font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 16px;margin-top: -15px;padding-bottom: 0px;"><img style="border-radius: 5px;width: 45px;height: 45px;margin-right: 9px;margin-top: 15px;" src="{{ objmain.poster_file.url }}" />{{ episode.title }}<br /></p>
+                            <p class="text-truncate text-uppercase" style="font-family: 'Nunito Sans', sans-serif;color: #adadad;font-size: 10px;margin-bottom: 0px;margin-top: -20px;margin-left: 54px;">{{ episode.description|slice:":250" }}<br /></p>
+                        </div>
+                    </a>
+                {% endfor %}
+                {% if movie.has_other_pages %}
+                <nav>
+                    <ul class="pagination">
+                        <style>
+                            .paginationbutton{
+                                background-color: #1e2123;
+                                color: #d1d1d1;
+                                border-style: solid;
+                                border-width: 1px;
+                                border-color:  #adadad;
+                                margin-right: 5px;
+                            }
+                            .paginationbuttoncurrent{
+                                background-color: #adadad;
+                                color: #181718;
+                                border-style: solid;
+                                border-width: 1px;
+                                border-color:  #adadad;
+                                margin-right: 5px;
+                                border-radius: 3px;
+                            }
+                        </style>
+                        {% if movie.has_previous %}
+                            <li class="page-item"><a class="page-link paginationbutton" style="border-top-left-radius: 3px;border-bottom-left-radius: 3px;" href="?page={{ movie.previous_page_number }}" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                        {% else %}
+                            <li class="page-item disabled"><a class="page-link paginationbutton" style="border-top-left-radius: 3px;border-bottom-left-radius: 3px;" href="#" aria-label="Previous"><span aria-hidden="true"><</span></a></li>
+                        {% endif %}
+                        {% for i in movie.paginator.page_range %}
+                            {% if movie.number == i %}
+                                <li class="page-item"><a class="page-link paginationbuttoncurrent"><span>{{ i }} <span class="sr-only">(current)</span></span></a></li>
+                            {% else %}
+                                <li class="page-item"><a class="page-link paginationbutton" href="?page={{ i }}">{{ i }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                        {% if movie.has_next %}
+                            <li class="page-item"><a class="page-link paginationbutton" style="border-top-right-radius: 3px;border-bottom-right-radius: 3px;" href="?page={{ movie.next_page_number }}" aria-label="Next"><span aria-hidden="true">></span></a></li>
+                        {% else %}
+                            <li class="page-item disabled"><a class="page-link paginationbutton" style="border-top-right-radius: 3px;border-bottom-right-radius: 3px;" href="#" aria-label="Next"><span aria-hidden="true">></span></a></li>
+                        {% endif %}
+                    </ul>
+                </nav>
+        {% endif %}
+            </div>
+            <div class="col">
+                <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;">NOW PLAYING</h2>
+                <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 35px;margin-top: -5px;">{{ objmain.title }}</h2>
+                <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">VIEWS</h2>
+                <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;"><strong>{{ objmain.views }}</strong><br /></h2>
+                <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">DESCRIPTION</h2>
+                <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;">{{ objmain.description }}</h2>
+                <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">RATING</h2>
+                <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;">{{ objmain.content_rating }}</h2>
+                <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">RELEASE DATE</h2>
+                <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;">{{ objmain.releasedate }}<br /></h2>
+                <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">GENRES</h2>
+                <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;">{{ objmain.genre_tags }}<br /></h2>
+                <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">CAST</h2>
+                <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;">{{ objmain.actors }}<br /></h2>
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <footer class="footer-basic" style="background: #141414;padding-bottom: 0px;">
+        <footer class="footer-dark" style="margin-bottom: -5px;background: #181718;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <h3 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 18px;">Browse</h3>
+                        <ul style="margin-top: -9px;">
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/movies">Movies</a></li>
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/tv">TV Shows</a></li>
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/ebooks">EBooks</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 18px;">About</h3>
+                        <ul style="margin-top: -9px;">
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/faq">FAQ</a></li>
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/pricing">Pricing</a></li>
+                            <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/support">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 18px;">Cipherflix</h3>
+                        <p style="font-family: 'Nunito Sans', sans-serif;font-size: 15px;color: #adadad;margin-top: -9px;margin-bottom: 0px;">Cipherflix is an online streaming platform that offers you a variety of entertainment: movies, TV shows, kid's shows, and free e-books. You can watch as much as you want, whenever you want. There’s entertainment for all.</p>
+                    </div>
+                </div>
+                <p style="text-align: center;margin-bottom: 0px;"><img src="{% static 'assets/img/cipherflixlogo.png' %}" style="height: 35px;"></p>
+                <p class="copyright" style="margin-top: 0px;padding-top: 0px;">Cipherflix © 2021</p>
+            </div>
+        </footer>
+        <h2 class="post-title" style="color: #d1d1d1;font-family: 'Open Sans', sans-serif;font-size: 20px;text-align: center;"></h2>
+    </footer>
+</body>
+</html>
