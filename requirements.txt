@@ -1,4 +1,4 @@
-Django
+django
 coinbase-commerce
 django-crispy-forms
 django-allauth
@@ -11,3 +11,5 @@ django-bootstrap4-form
 django-haystack
 django-analytical
 django-progressbarupload
+gunicorn
+dj-database-url
