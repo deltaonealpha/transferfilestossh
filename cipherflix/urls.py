@@ -22,12 +22,18 @@ from django.contrib.auth import views as auth
 from filebrowser.sites import site
 from django.conf import settings
 from django.conf.urls.static import static
+from .views import account_signup_view, account_login_view
+import subscriptions
 urlpatterns = [
     path(r'^progressbarupload/', include('progressbarupload.urls')),
+    path('subscriptions/', include('subscriptions.urls')),
+    path('payments/', include('payments.urls')),
     path('admin/', admin.site.urls),
     path('admin/filebrowser/', site.urls),
     path('', include('content.urls')), # new
     path('', include('payments.urls')), # new
+    path("accounts/signup/", view=account_signup_view),
+    path("accounts/login/", view=account_login_view),
     path('accounts/', include('allauth.urls')),
     path("i18n/", include("django.conf.urls.i18n")),
     path(r'^progressbarupload/', include('progressbarupload.urls')),

@@ -39,11 +39,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive" style="text-align: left;"><a class="text-uppercase" href="/tv" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">TV SHOWS</a><a class="text-uppercase" href="/movies" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">MOVIES</a><a class="text-uppercase" href="/faq" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">FAQ</a><a class="text-uppercase" href="/pricing" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">PRICING</a><a class="text-uppercase" href="/contact" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;font-size: 12px;color: rgb(255,255,255);margin-right: 25px;">CONTACT</a>
                 <ul class="navbar-nav ms-auto" style="text-align: left;margin-left: auto;">
                     <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link active" href="/search" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;padding-right: 10px;padding-left: 10px;color: #ffffff;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-search" style="font-weight: bold;font-size: 16px;margin-bottom: 1px;color: #ffffff;">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <circle cx="10" cy="10" r="7"></circle>
-                                <line x1="21" y1="21" x2="15" y2="15"></line>
-                            </svg></a></li>
+                    
                     <li class="nav-item"><a class="nav-link active" href="/profile" style="font-family: 'Nunito Sans', sans-serif;font-weight: normal;padding-right: 10px;padding-left: 10px;color: #ffffff;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-users" style="font-weight: bold;font-size: 16px;margin-bottom: 1px;color: #ffffff;">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                 <circle cx="9" cy="7" r="4"></circle>
@@ -74,21 +70,24 @@ const player = new Plyr('video', {captions: {active: true}});
 // Expose player so it can be used from the console
 window.player = player;
 
-</script></div>
+</script>
+</div>
+<div class="row" style="margin-bottom: 35px;"> 
+    <div class="col-md-12 col-xl-12" style="padding: 0px 23px;"> 
         <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">NOW PLAYING</h2>
-        <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 35px;margin-top: -5px;">{{ movie.title }}</h2>
+        <p class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 35px;margin-top: -5px;">{{ movie.title }}</p>
         <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">VIEWS</h2>
-        <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;">{{ movie.views }}</h2>
+        <p class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: normal;">{{ movie.views }}</p>
         <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">DESCRIPTION</h2>
-        <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;"><strong>{{ movie.description }}</strong>&nbsp;<br></h2>
+        <p class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: normal;">{{ movie.description }}&nbsp;<br></p>
         <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">RATING</h2>
-        <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;">{{ movie.content_rating }}</h2>
+        <p class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: normal;">{{ movie.content_rating }}</p>
         <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">RELEASE DATE</h2>
-        <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;">{{ movie.releasedate }}</h2>
+        <p class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: normal;">{{ movie.releasedate }}</p>
         <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">GENRES</h2>
-        <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;">{{ movie.genre_tags }}</h2>
+        <p class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: normal;">{{ movie.genre_tags }}</p>
         <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">CAST</h2>
-        <h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: thin;">{{ movie.actors }}</h2>
+        <p class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 18px;margin-top: -5px;font-weight: normal;">{{ movie.actors }}</p>
         <h2 class="post-title" style="color: #adadad;font-family: 'Nunito Sans', sans-serif;font-size: 15px;margin-top: 15px;">TRAILER</h2>
         <div class="row">
             <div class="col"><video width="560" height="315" style="width: 300px;position: relative;left: 1px;height: 170px;border-radius: 5px;z-index: 1;" controls poster="{{ movie.poster_file.url }}">
@@ -97,11 +96,13 @@ window.player = player;
                 </video></div>
         </div>
     </div>
+</div>
+    </div>
     <footer class="footer-basic" style="background: #141414;padding-bottom: 0px;">
         <footer class="footer-dark" style="margin-bottom: -5px;background: #181718;">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3" style="margin-top: 15px;">
                         <h3 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 18px;">Browse</h3>
                         <ul style="margin-top: -9px;">
                             <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/movies">Movies</a></li>
@@ -109,7 +110,7 @@ window.player = player;
                             <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/ebooks">EBooks</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3" style="margin-top: 15px;">
                         <h3 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 18px;">About</h3>
                         <ul style="margin-top: -9px;">
                             <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/faq">FAQ</a></li>
@@ -117,7 +118,7 @@ window.player = player;
                             <li style="text-align: left;color: #adadad;font-family: 'Nunito Sans', sans-serif;padding-left: 0px;padding-right: 0px;font-size: 15px;"><a href="/support">Support</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" style="margin-top: 15px;">
                         <h3 style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 18px;">Cipherflix</h3>
                         <p style="font-family: 'Nunito Sans', sans-serif;font-size: 15px;color: #adadad;margin-top: -9px;margin-bottom: 0px;">Cipherflix is an online streaming platform that offers you a variety of entertainment: movies, TV shows, kid's shows, and free e-books. You can watch as much as you want, whenever you want. There’s entertainment for all.</p>
                     </div>

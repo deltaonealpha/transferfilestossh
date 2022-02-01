@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django import forms
 # Register your models here.
-from .models import Movie, TvShow, Episode, termsconditionlisting, UploadFileModel, Ebook
+from .models import Movie, TvShow, Episode, termsconditionlisting, UploadFileModel, Ebook, Moviecategory, TVcategory
 admin.site.register(termsconditionlisting)
 admin.site.site_header = "Cipherflix"
 admin.site.register(Ebook)
@@ -43,6 +43,9 @@ class UploadEpisodeModelAdmin(admin.ModelAdmin):
     class Media:
         js = ("http://code.jquery.com/jquery.min.js",)
 admin.site.register(Episode, UploadEpisodeModelAdmin)
+
+admin.site.register(TVcategory)
+admin.site.register(Moviecategory)
 
 '''
 from mce_filebrowser.admin import MCEFilebrowserAdmin

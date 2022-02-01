@@ -1,0 +1,40 @@
+{% extends "users/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Signup" %}{% endblock %}
+
+{% block content %}
+<h2 class="post-title" style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;font-size: 35px;margin-left: -8px;margin-bottom: -15px;text-align: center;">Create an account</h2><a href="#"></a>
+
+
+<p style="color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;margin-left: -8px;margin-bottom: 15px;text-align: center;font-size: 16px;">{% blocktrans %}Already have an account? Then please <a style="color: #ffffff;" href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+
+<form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
+  {% csrf_token %}
+  {{ form.as_p }}
+  {% if redirect_field_value %}
+  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+  {% endif %}
+  <button class="btn btn-primary" type="submit" style="font-family: 'Nunito Sans', sans-serif;margin-top: 15px;background: rgba(255,255,255,0.8);border-radius: 5px;border-style: none;border-bottom-style: none;padding-top: 13px;padding-bottom: 13px;padding-right: 17px;padding-left: 17px;color: #181718;z-index: 100;margin-right: 15px;">{% trans "Sign Up" %} &raquo;</button>
+<br /><img src="../../../../../../../../../static/assets/img/cipherflixlogo.png" style="height: 35px;margin-top: 25px;" />
+</form>
+
+<style>
+input {
+  background-color: #181718;
+  border: none;
+  border-radius: 5px;
+  color: #d1d1d1;
+  padding: 8px;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: -15px;
+}
+label {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #d1d1d1;
+  font-size: 16px;
+}
+</style>
+
+{% endblock %}

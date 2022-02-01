@@ -1,4 +1,4 @@
-django
+Django==3.2.11
 coinbase-commerce
 django-crispy-forms
 django-allauth
@@ -11,5 +11,9 @@ django-bootstrap4-form
 django-haystack
 django-analytical
 django-progressbarupload
-gunicorn
-dj-database-url
+Image
+django-jazzmin
+django-flexible-subscriptions
+boto3
+django-storages
+django-payments

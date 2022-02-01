@@ -65,18 +65,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.staticfiles',
     'progressbarupload',
-    'payments.apps.PaymentsConfig', # new
     'content.apps.ContentConfig', # new
+    'storages',
     'bootstrap4form', # Required for nicer formatting of forms with the default templates
     'crispy_forms',
     'django.contrib.messages',
     'django.contrib.sites',
+    'cipherflix',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'allauth.socialaccount.providers.openid',
     'taggit',
     'analytical',
+    'subscriptions',
+    'payments', 
 ]
 SITE_ID = 1
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -88,6 +90,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'content.middleware.MyMiddleware',
 ]
 
 ROOT_URLCONF = 'cipherflix.urls'
@@ -95,7 +98,7 @@ ROOT_URLCONF = 'cipherflix.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['template'],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'), os.path.join(BASE_DIR, 'templates', 'allauth')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -208,12 +211,39 @@ JAZZMIN_SETTINGS = {
     "site_title": "Cipherflix",
     "site_header": "Cipherflix",
     "site_brand": "Cipherflix",
-    "site_logo": "/assets/img/faviconcipherflix.png",
+    "site_logo": "assets/img/faviconcipherflix.png",
     "site_logo_classes": "img-circle",
-    "site_icon": "/assets/img/faviconcipherflix.png",
+    "site_icon": "assets/img/faviconcipherflix.png",
     "welcome_sign": "Welcome to Cipherflix",
     "copyright": "Cipherflix",
     "search_model": "auth.User",
-
-    
 }
+
+# Set your currency type
+DFS_CURRENCY_LOCALE = 'en_us'
+DFS_ENABLE_ADMIN = True
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'mysite/static'),
+]
+
+AWS_ACCESS_KEY_ID = 'QHDWE2SFFCRYB6P4ZTJ7'
+AWS_SECRET_ACCESS_KEY = 'Ku3IX14D9DdgBKZxqno36+Wb0zLJdZ+gHYKxRpZSHzU'
+AWS_STORAGE_BUCKET_NAME = 'cipherflixstorage'
+AWS_S3_ENDPOINT_URL = 'https://fra1.digitaloceanspaces.com'
+
+AWS_S3_OBJECT_PARAMETERS = {
+    'CacheControl': 'max-age=86400',
+}
+
+AWS_LOCATION = 'static'
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+STATIC_URL = "https://%s/%s/" % (AWS_S3_ENDPOINT_URL, AWS_LOCATION)
+
+DEFAULT_FILE_STORAGE = 'cipherflix.storage_backends.MediaStorage'  # <-- here is where we reference it
+
+PAYMENT_HOST = 'localhost:8000'
+PAYMENT_USES_SSL = False
+PAYMENT_MODEL = 'cipherflix.Payment'
+PAYMENT_VARIANTS = {
+    'default': ('payments.dummy.DummyProvider', {})}
