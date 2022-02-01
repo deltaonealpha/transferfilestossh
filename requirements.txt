@@ -17,3 +17,5 @@ django-flexible-subscriptions
 boto3
 django-storages
 django-payments
+gunicorn
+whitenoise
