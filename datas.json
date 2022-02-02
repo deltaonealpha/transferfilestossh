@@ -1,0 +1,2816 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2021-12-21T18:15:31.288Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Test",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2021-12-21T18:15:53.097Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Test",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2021-12-21T18:16:14.919Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Testep1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2021-12-21T18:18:12.208Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "TestMovie",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2021-12-21T18:43:35.376Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Test",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2021-12-21T18:51:05.105Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "TestMovie3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2021-12-21T18:52:01.846Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "ExampleName",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2021-12-21T18:52:51.585Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Episode One",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2022-01-08T09:44:58.245Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "admin@admin.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Verified\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2022-01-08T09:45:10.471Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "TestMovie3",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2022-01-08T09:45:10.474Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Test",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2022-01-08T09:45:10.481Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "TestMovie",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-01-08T09:45:10.487Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Test",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-01-08T09:45:15.273Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Episode One",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-01-08T09:45:15.286Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Testep1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-01-08T09:45:19.297Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "ExampleName",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-01-08T09:45:19.304Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Test",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-01-08T09:57:44.507Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Shrek (2001)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-01-08T10:00:40.346Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Shrek 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-01-08T10:37:34.867Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Shrek 4",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-01-08T11:54:57.306Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Shrek 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Upload a poster file: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2022-01-08T11:55:05.160Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Shrek (2001)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Upload a poster file: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2022-01-08T11:55:10.774Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Shrek 4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Upload a poster file: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2022-01-08T12:04:42.657Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "XMEN Back To the Future (2000)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2022-01-08T12:07:33.676Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Tenet",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2022-01-08T13:32:00.976Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "New Amsterdam",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2022-01-08T13:32:53.804Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "S2E1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2022-01-08T13:33:12.798Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "S2E2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2022-01-08T13:33:30.222Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "S2E3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2022-01-08T13:33:51.292Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "S2E4",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2022-01-08T13:34:11.429Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "S2E2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Upload the episode: \", \"Upload the subtitles file: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2022-01-08T13:34:24.912Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "S2E3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Upload the episode: \", \"Upload the subtitles file: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2022-01-08T13:43:32.488Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "New Amsterdam",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Upload a poster file: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2022-01-08T14:26:51.041Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "termsconditionlisting object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2022-01-08T14:27:09.501Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "termsconditionlisting object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Privacypolicy\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2022-01-08T14:30:08.023Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "termsconditionlisting object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Faq\", \"Pricing\", \"Contact\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2022-01-08T15:05:24.526Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "The Sixth Man",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2022-01-08T15:06:24.135Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "One Summer",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2022-01-27T10:25:50.331Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "cipherflix.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2022-01-27T13:25:18.397Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "One Summer",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2022-01-27T13:25:18.403Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "The Sixth Man",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2022-01-27T13:25:45.912Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "S2E4",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2022-01-27T13:25:45.921Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "S2E3",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2022-01-27T13:25:45.928Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "S2E2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2022-01-27T13:25:45.935Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "S2E1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2022-01-27T13:25:50.295Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Tenet",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2022-01-27T13:25:50.302Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "XMEN Back To the Future (2000)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2022-01-27T13:25:50.309Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Shrek 4",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2022-01-27T13:25:50.316Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Shrek 2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2022-01-27T13:25:50.323Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Shrek (2001)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2022-01-27T13:25:55.159Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "New Amsterdam",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2022-01-31T11:50:28.393Z",
+      "user": 2,
+      "content_type": 27,
+      "object_id": "3a074c82-31b8-42c8-ada6-9bbfccd653f9",
+      "object_repr": "Cipherflix Monthly",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2022-02-02T16:19:57.649Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "TestMovie",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2022-02-02T16:20:18.189Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Tenet",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name of the movie: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2022-02-02T16:22:23.380Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "X-Men 2014",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2022-02-02T16:22:54.448Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Tenet",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Views\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2022-02-02T16:41:16.886Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "termsconditionlisting object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Faq\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2022-02-02T16:43:59.527Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "termsconditionlisting object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Privacypolicy\", \"Faq\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2022-02-02T16:45:06.680Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "termsconditionlisting object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Faq\", \"Pricing\", \"Contact\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2022-02-02T17:04:29.887Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Shrek (2011)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2022-02-02T17:18:46.514Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "Shrek (2004)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2022-02-02T17:21:27.200Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "X-Men 2014",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2022-02-02T17:21:27.208Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Tenet",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2022-02-02T17:27:04.029Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "Back to the Future (1985)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2022-02-02T17:29:21.126Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Back to the Future (1989)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2022-02-02T17:36:05.389Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "Back to the Future (1990)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2022-02-02T17:36:55.247Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "Back to the Future (1990)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Upload the movie: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2022-02-02T17:38:42.045Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "Back to the Future (1985)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Upload the movie: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2022-02-02T17:40:35.404Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Back to the Future (1989)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Upload the movie: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2022-02-02T17:50:51.273Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Kanojo Okarishimasu 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2022-02-02T17:54:11.456Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2022-02-02T18:03:42.517Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2022-02-02T18:04:13.844Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Kanojo Okarishimasu 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2022-02-02T18:06:01.122Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2022-02-02T18:09:04.647Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2022-02-02T18:11:51.004Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2022-02-02T18:15:29.546Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2022-02-02T18:18:11.089Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "13",
+      "object_repr": "3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2022-02-02T18:46:00.494Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Kanojo Okarishimasu 3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2022-02-02T18:46:36.641Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Kanojo Okarishimasu 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Upload the trailer file: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2022-02-02T18:46:59.228Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tv show\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2022-02-02T18:47:05.697Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tv show\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2022-02-02T21:17:50.694Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Kanojo Okarishimasu 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Show description: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2022-02-02T21:17:54.031Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Kanojo Okarishimasu 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Show description: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2022-02-02T21:17:57.408Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Kanojo Okarishimasu 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Show description: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2022-02-02T21:18:14.061Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "13",
+      "object_repr": "3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Episode description: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2022-02-02T21:18:16.411Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Episode description: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2022-02-02T21:18:18.584Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Episode description: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2022-02-02T21:18:20.390Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Episode description: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2022-02-02T21:18:22.201Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Episode description: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2022-02-02T21:18:24.453Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Episode description: \"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2022-02-02T21:19:12.171Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Episode description: \"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add ebook",
+      "content_type": 7,
+      "codename": "add_ebook"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change ebook",
+      "content_type": 7,
+      "codename": "change_ebook"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete ebook",
+      "content_type": 7,
+      "codename": "delete_ebook"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view ebook",
+      "content_type": 7,
+      "codename": "view_ebook"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add movie",
+      "content_type": 8,
+      "codename": "add_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change movie",
+      "content_type": 8,
+      "codename": "change_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can delete movie",
+      "content_type": 8,
+      "codename": "delete_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can view movie",
+      "content_type": 8,
+      "codename": "view_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add About, Terms and Privacy Policy",
+      "content_type": 9,
+      "codename": "add_termsconditionlisting"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change About, Terms and Privacy Policy",
+      "content_type": 9,
+      "codename": "change_termsconditionlisting"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete About, Terms and Privacy Policy",
+      "content_type": 9,
+      "codename": "delete_termsconditionlisting"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view About, Terms and Privacy Policy",
+      "content_type": 9,
+      "codename": "view_termsconditionlisting"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add tv show",
+      "content_type": 10,
+      "codename": "add_tvshow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change tv show",
+      "content_type": 10,
+      "codename": "change_tvshow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete tv show",
+      "content_type": 10,
+      "codename": "delete_tvshow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view tv show",
+      "content_type": 10,
+      "codename": "view_tvshow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add upload file model",
+      "content_type": 11,
+      "codename": "add_uploadfilemodel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change upload file model",
+      "content_type": 11,
+      "codename": "change_uploadfilemodel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete upload file model",
+      "content_type": 11,
+      "codename": "delete_uploadfilemodel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view upload file model",
+      "content_type": 11,
+      "codename": "view_uploadfilemodel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add episode",
+      "content_type": 12,
+      "codename": "add_episode"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change episode",
+      "content_type": 12,
+      "codename": "change_episode"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete episode",
+      "content_type": 12,
+      "codename": "delete_episode"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view episode",
+      "content_type": 12,
+      "codename": "view_episode"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add site",
+      "content_type": 13,
+      "codename": "add_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change site",
+      "content_type": 13,
+      "codename": "change_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete site",
+      "content_type": 13,
+      "codename": "delete_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view site",
+      "content_type": 13,
+      "codename": "view_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add email address",
+      "content_type": 14,
+      "codename": "add_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change email address",
+      "content_type": 14,
+      "codename": "change_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete email address",
+      "content_type": 14,
+      "codename": "delete_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view email address",
+      "content_type": 14,
+      "codename": "view_emailaddress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add email confirmation",
+      "content_type": 15,
+      "codename": "add_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change email confirmation",
+      "content_type": 15,
+      "codename": "change_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete email confirmation",
+      "content_type": 15,
+      "codename": "delete_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view email confirmation",
+      "content_type": 15,
+      "codename": "view_emailconfirmation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add social account",
+      "content_type": 16,
+      "codename": "add_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change social account",
+      "content_type": 16,
+      "codename": "change_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete social account",
+      "content_type": 16,
+      "codename": "delete_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view social account",
+      "content_type": 16,
+      "codename": "view_socialaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add social application",
+      "content_type": 17,
+      "codename": "add_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change social application",
+      "content_type": 17,
+      "codename": "change_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete social application",
+      "content_type": 17,
+      "codename": "delete_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view social application",
+      "content_type": 17,
+      "codename": "view_socialapp"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add social application token",
+      "content_type": 18,
+      "codename": "add_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change social application token",
+      "content_type": 18,
+      "codename": "change_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete social application token",
+      "content_type": 18,
+      "codename": "delete_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view social application token",
+      "content_type": 18,
+      "codename": "view_socialtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add open id nonce",
+      "content_type": 19,
+      "codename": "add_openidnonce"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change open id nonce",
+      "content_type": 19,
+      "codename": "change_openidnonce"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete open id nonce",
+      "content_type": 19,
+      "codename": "delete_openidnonce"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view open id nonce",
+      "content_type": 19,
+      "codename": "view_openidnonce"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add open id store",
+      "content_type": 20,
+      "codename": "add_openidstore"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change open id store",
+      "content_type": 20,
+      "codename": "change_openidstore"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete open id store",
+      "content_type": 20,
+      "codename": "delete_openidstore"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view open id store",
+      "content_type": 20,
+      "codename": "view_openidstore"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+      "name": "Can add tag",
+      "content_type": 21,
+      "codename": "add_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+      "name": "Can change tag",
+      "content_type": 21,
+      "codename": "change_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+      "name": "Can delete tag",
+      "content_type": 21,
+      "codename": "delete_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+      "name": "Can view tag",
+      "content_type": 21,
+      "codename": "view_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+      "name": "Can add tagged item",
+      "content_type": 22,
+      "codename": "add_taggeditem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+      "name": "Can change tagged item",
+      "content_type": 22,
+      "codename": "change_taggeditem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+      "name": "Can delete tagged item",
+      "content_type": 22,
+      "codename": "delete_taggeditem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+      "name": "Can view tagged item",
+      "content_type": 22,
+      "codename": "view_taggeditem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+      "name": "Can add t vcategory",
+      "content_type": 23,
+      "codename": "add_tvcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+      "name": "Can change t vcategory",
+      "content_type": 23,
+      "codename": "change_tvcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+      "name": "Can delete t vcategory",
+      "content_type": 23,
+      "codename": "delete_tvcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+      "name": "Can view t vcategory",
+      "content_type": 23,
+      "codename": "view_tvcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+      "name": "Can add moviecategory",
+      "content_type": 24,
+      "codename": "add_moviecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+      "name": "Can change moviecategory",
+      "content_type": 24,
+      "codename": "change_moviecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+      "name": "Can delete moviecategory",
+      "content_type": 24,
+      "codename": "delete_moviecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+      "name": "Can view moviecategory",
+      "content_type": 24,
+      "codename": "view_moviecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+      "name": "Can add plan cost",
+      "content_type": 25,
+      "codename": "add_plancost"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+      "name": "Can change plan cost",
+      "content_type": 25,
+      "codename": "change_plancost"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+      "name": "Can delete plan cost",
+      "content_type": 25,
+      "codename": "delete_plancost"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+      "name": "Can view plan cost",
+      "content_type": 25,
+      "codename": "view_plancost"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 101,
+    "fields": {
+      "name": "Can add plan tag",
+      "content_type": 26,
+      "codename": "add_plantag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 102,
+    "fields": {
+      "name": "Can change plan tag",
+      "content_type": 26,
+      "codename": "change_plantag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 103,
+    "fields": {
+      "name": "Can delete plan tag",
+      "content_type": 26,
+      "codename": "delete_plantag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 104,
+    "fields": {
+      "name": "Can view plan tag",
+      "content_type": 26,
+      "codename": "view_plantag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 105,
+    "fields": {
+      "name": "Can add subscription plan",
+      "content_type": 27,
+      "codename": "add_subscriptionplan"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 106,
+    "fields": {
+      "name": "Can change subscription plan",
+      "content_type": 27,
+      "codename": "change_subscriptionplan"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 107,
+    "fields": {
+      "name": "Can delete subscription plan",
+      "content_type": 27,
+      "codename": "delete_subscriptionplan"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 108,
+    "fields": {
+      "name": "Can view subscription plan",
+      "content_type": 27,
+      "codename": "view_subscriptionplan"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 109,
+    "fields": {
+      "name": "Can interact with subscription details",
+      "content_type": 27,
+      "codename": "subscriptions"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 110,
+    "fields": {
+      "name": "Can add subscription transaction",
+      "content_type": 28,
+      "codename": "add_subscriptiontransaction"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 111,
+    "fields": {
+      "name": "Can change subscription transaction",
+      "content_type": 28,
+      "codename": "change_subscriptiontransaction"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 112,
+    "fields": {
+      "name": "Can delete subscription transaction",
+      "content_type": 28,
+      "codename": "delete_subscriptiontransaction"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 113,
+    "fields": {
+      "name": "Can view subscription transaction",
+      "content_type": 28,
+      "codename": "view_subscriptiontransaction"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 114,
+    "fields": {
+      "name": "Can add user subscription",
+      "content_type": 29,
+      "codename": "add_usersubscription"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 115,
+    "fields": {
+      "name": "Can change user subscription",
+      "content_type": 29,
+      "codename": "change_usersubscription"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 116,
+    "fields": {
+      "name": "Can delete user subscription",
+      "content_type": 29,
+      "codename": "delete_usersubscription"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 117,
+    "fields": {
+      "name": "Can view user subscription",
+      "content_type": 29,
+      "codename": "view_usersubscription"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 118,
+    "fields": {
+      "name": "Can add plan list",
+      "content_type": 30,
+      "codename": "add_planlist"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 119,
+    "fields": {
+      "name": "Can change plan list",
+      "content_type": 30,
+      "codename": "change_planlist"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 120,
+    "fields": {
+      "name": "Can delete plan list",
+      "content_type": 30,
+      "codename": "delete_planlist"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 121,
+    "fields": {
+      "name": "Can view plan list",
+      "content_type": 30,
+      "codename": "view_planlist"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 122,
+    "fields": {
+      "name": "Can add plan list detail",
+      "content_type": 30,
+      "codename": "add_planlistdetail"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 123,
+    "fields": {
+      "name": "Can change plan list detail",
+      "content_type": 30,
+      "codename": "change_planlistdetail"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 124,
+    "fields": {
+      "name": "Can delete plan list detail",
+      "content_type": 30,
+      "codename": "delete_planlistdetail"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 125,
+    "fields": {
+      "name": "Can view plan list detail",
+      "content_type": 30,
+      "codename": "view_planlistdetail"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 126,
+    "fields": {
+      "name": "Can add payment",
+      "content_type": 30,
+      "codename": "add_payment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 127,
+    "fields": {
+      "name": "Can change payment",
+      "content_type": 30,
+      "codename": "change_payment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 128,
+    "fields": {
+      "name": "Can delete payment",
+      "content_type": 30,
+      "codename": "delete_payment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 129,
+    "fields": {
+      "name": "Can view payment",
+      "content_type": 30,
+      "codename": "view_payment"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$YeBJa3gkn3WEDnq2gOfxS0$/LvbSsDjcKRb8yT5dwE40I8QlokUb00L6OVKqoSAe94=",
+      "last_login": "2021-12-21T18:15:02.588Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@admin.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-12-21T18:14:49.238Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$Dj5oMaR0SwOX3MosVVTLfe$6k1b8rVPOex7H+jXj8dk/DCirgr6tHesfx19jL7Idf8=",
+      "last_login": "2022-02-02T20:48:19.319Z",
+      "is_superuser": true,
+      "username": "testadmin",
+      "first_name": "",
+      "last_name": "",
+      "email": "testadmin@admin.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-01-08T09:40:04.601Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$rRRQSNhfCsx4viJCTZHGiq$K3MvBjW8JUh1VnAPamXgv3QAtBq/ML3mqb3ikySdlLo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sdsdsdsd",
+      "first_name": "",
+      "last_name": "",
+      "email": "sdsdsdsd@asd.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-01-27T10:46:14.843Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "8tifsw7d32456yo16xi2s1oa7humfda2",
+    "fields": {
+      "session_data": "eyJhY2NvdW50X3ZlcmlmaWVkX2VtYWlsIjpudWxsLCJhY2NvdW50X3VzZXIiOiIzIiwiX3Nlc3Npb25fZXhwaXJ5IjowfQ:1nD2U1:hEH-4BLJVB7ZPIV59DyJJVja3nS3CtUt2stL21n-9jM",
+      "expire_date": "2022-02-10T10:58:29.143Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "gffwh09r92qx0qgrsbro5m1xsqmfw31j",
+    "fields": {
+      "session_data": ".eJxVjDsOAjEMBe-SGkUKie1dSnrOsHJihyygRNpPhbg7irQFtG9m3ttMvG9l2lddplnMxThz-t0ip6fWDuTB9d5sanVb5mi7Yg-62lsTfV0P9--g8Fp6LUyCms-ZIghSTt7TgEgxZHDiBbySgkschpyQRwygYxDASM47MJ8vBeU4Ig:1mzjfC:v4NoGD25nOCDn8B2OBEv5iRjuJrR5pTn33D02ywfl9I",
+      "expire_date": "2022-01-04T18:15:02.595Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "h1on30hnvjan72owaenb9tuskipqbtis",
+    "fields": {
+      "session_data": ".eJxVjEsOwiAUAO_C2hB-Ftqle89A3oOHRQ0YaBON8e6mSTfdzkzmy3yn3nMtnt6v3D5sEifmYV1mv3ZqPkc2McUODCE8qGwi3qHcKg-1LC0j3xK-286vNdLzsreHwQx93rY2gtZpkBYdIKEFQmdCUlLaZI0mg2cnQYyCyMhEQSsxaIXWDtq50bHfHxzCPuQ:1n68GE:W84xsJueFY3_SAjJLAmUrY_MXc4EO5z77lypL_bbhUo",
+      "expire_date": "2022-01-22T09:43:42.665Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "hk7wrfp9o955syyzu7klobh5q4g6eymy",
+    "fields": {
+      "session_data": ".eJxVjUsOwiAQhu_C2jS8LLQ7vQiZoUNKbKgpkGiMd7eYLnT5P78Xc1DL7GqmzcWJjUyy06-H4G-UWgDL0uwOvF9rKt23c8S5u-yKUokeSlzT9Vj9Xc2Q5wYwEygVemHQAhIaILTaBymECUYr0ni2AvjAibQI5JXkvZJoTK-sHWw7zZTzjnH0uMftyUb-_gDIT0NY:1nFMY7:UayevKGjv1NzuDNQnuYqWQJZYTPUj3j2PIBuSdJacG4",
+      "expire_date": "2022-02-16T20:48:19.331Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "t7etpoh3xrgm9vexr0l01jatlsszjc4t",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQAP-FsyG8ZKlH735DswuLVA0kpT0Z_92Q9KDXmcm8xYz7Vua98zovSVyEEadfRhifXIdID6z3JmOr27qQHIk8bJe3lvh1Pdq_QcFexhYSWpu9BgpITIBMwcVstIYMzrKjc9CoJsXsdOZojfLWEIC3IUxBfL7z1zen:1n6DEq:mKptfxyrouomtn5F1XFeW5vB8EGZzNeJx1PRWUl1hDI",
+      "expire_date": "2022-01-22T15:02:36.100Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "w7ih0hvgqq28pod4e8knwyp6w4expt2g",
+    "fields": {
+      "session_data": "eyJfc2Vzc2lvbl9leHBpcnkiOjB9:1n80Qk:lYL0GqvrymfDHzh6dmz-nI3kLsgcXYb7t6vH3R6t1y4",
+      "expire_date": "2022-01-27T13:46:18.558Z"
+    }
+  },
+  {
+    "model": "content.movie",
+    "pk": 12,
+    "fields": {
+      "title": "Shrek (2011)",
+      "moviefile": "Shrek-1.mp4",
+      "movielink": null,
+      "subtitle_file": "Shrek.2001.1080p.BluRay.x264.YIFY.srt",
+      "trailer_file": "videoplayback_1.mp4",
+      "poster_file": "posters/shrek1.jpg",
+      "releasedate": "2011-04-22",
+      "content_rating": "4.4",
+      "genre_tags": "Comedy, Family, Adventure, Animation",
+      "description": "Shrek, an ogre, embarks on a journey with a donkey to rescue Princess Fiona from a vile lord and regain his swamp.",
+      "displayornot": true,
+      "actors": "Mike Myers Shrek Eddie Murphy (Donkey) Eddie Murphy Donkey Cameron Diaz (Princess Fiona) Cameron Diaz Princess Fiona Chris Miller (Geppetto, Magic Mirror) Chris Miller Geppetto",
+      "views": 13
+    }
+  },
+  {
+    "model": "content.movie",
+    "pk": 13,
+    "fields": {
+      "title": "Shrek (2004)",
+      "moviefile": "Shrek-2.mp4",
+      "movielink": null,
+      "subtitle_file": "Shrek-2.srt",
+      "trailer_file": "videoplayback_1_kVZjfGN.mp4",
+      "poster_file": "posters/download_3.jfif",
+      "releasedate": "2004-02-02",
+      "content_rating": "4.4",
+      "genre_tags": "Comedy, Family, Adventure, Animation",
+      "description": "When Shrek and Fiona return from their honeymoon, her parents, the rulers of Far Far Away, invite them over. But as the king does not like Shrek, he enlists a fairy to keep him away from his daughter.",
+      "displayornot": true,
+      "actors": "Mike Myers Shrek Eddie Murphy (Donkey) Eddie Murphy Donkey Cameron Diaz (Princess Fiona) Cameron Diaz Princess Fiona Chris Miller (Geppetto, Magic Mirror) Chris Miller Geppetto, Magic Mirror",
+      "views": 0
+    }
+  },
+  {
+    "model": "content.movie",
+    "pk": 14,
+    "fields": {
+      "title": "Back to the Future (1985)",
+      "moviefile": "John.Wick.2014.1080p.BluRay.sample_GMlU90J.mkv",
+      "movielink": null,
+      "subtitle_file": "English.srt",
+      "trailer_file": "videoplayback_2.mp4",
+      "poster_file": "posters/bttf1.jfif",
+      "releasedate": "1985-02-02",
+      "content_rating": "4",
+      "genre_tags": "Science, Documentary, Technology",
+      "description": "Marty travels back in time using an eccentric scientist's time machine. However, he must make his high-school-aged parents fall in love in order to return to the present.",
+      "displayornot": true,
+      "actors": "Michael J. Fox Marty McFly Christopher Lloyd (Dr. Emmett Brown) Christopher Lloyd Dr. Emmett Brown Lea Thompson (Lorraine Baines McFly) Lea Thompson Lorraine Baines McFly Crispin Glover (George McFly) Crispin Glover George McFly",
+      "views": 0
+    }
+  },
+  {
+    "model": "content.movie",
+    "pk": 15,
+    "fields": {
+      "title": "Back to the Future (1989)",
+      "moviefile": "John.Wick.2014.1080p.BluRay.sample_WejjlGJ.mkv",
+      "movielink": null,
+      "subtitle_file": "English_jHwxVqP.srt",
+      "trailer_file": "videoplayback_2_lWlBGrW.mp4",
+      "poster_file": "posters/bttf2.jpg",
+      "releasedate": "2022-02-02",
+      "content_rating": "4.4",
+      "genre_tags": "Science, Documentary, Technology",
+      "description": "Marty Mcfly travels back in time with the help of Dr Emmett Brown and poses as his own son to prevent his imprisonment. However, all his efforts turn futile as the future changes the present.",
+      "displayornot": true,
+      "actors": "Michael J. Fox Marty McFly Christopher Lloyd (Dr. Emmett Brown) Christopher Lloyd Dr. Emmett Brown Lea Thompson (Lorraine Baines McFly) Lea Thompson Lorraine Baines McFly Crispin Glover (George McFly) Crispin Glover George McFly",
+      "views": 2
+    }
+  },
+  {
+    "model": "content.movie",
+    "pk": 16,
+    "fields": {
+      "title": "Back to the Future (1990)",
+      "moviefile": "John.Wick.2014.1080p.BluRay.sample.mkv",
+      "movielink": null,
+      "subtitle_file": "English_Ne8kDU8.srt",
+      "trailer_file": "videoplayback_2_eI9maUi.mp4",
+      "poster_file": "posters/bttf3.jpg",
+      "releasedate": "1990-02-02",
+      "content_rating": "4.4",
+      "genre_tags": "Science, Documentary, Technology",
+      "description": "Marty travels back to 1885 to the Old West where Dr Emmett has fallen madly in love with a local schoolteacher. Marty must get him out of the wild West in order to save him from a premature end.",
+      "displayornot": true,
+      "actors": "Michael J. Fox Marty McFly Christopher Lloyd (Dr. Emmett Brown) Christopher Lloyd Dr. Emmett Brown Lea Thompson (Lorraine Baines McFly) Lea Thompson Lorraine Baines McFly Crispin Glover (George McFly) Crispin Glover George McFly",
+      "views": 0
+    }
+  },
+  {
+    "model": "content.tvshow",
+    "pk": 4,
+    "fields": {
+      "title": "Kanojo Okarishimasu 1",
+      "start_date": "2019-02-02",
+      "end_date": "2022-02-02",
+      "trailer_file": "John.Wick.2014.1080p.BluRay.sample_0PzMyJg.mkv",
+      "poster_file": "posters/kanojo-okarishimasu-episode-2-1428.jpg",
+      "releasedate": "2022-02-02",
+      "content_rating": "4.4",
+      "genre_tags": "Comedy, Family, Adventure, Animation",
+      "description": "A Japanese manga series written and illustrated by Reiji Miyajima. It has been serialized in Kodansha's Weekly Shonen Magazine since July 2017, and has been compiled into twenty-four volumes as of December 2021.",
+      "displayornot": true,
+      "actors": "Reiji Miyajima",
+      "views": 0
+    }
+  },
+  {
+    "model": "content.tvshow",
+    "pk": 5,
+    "fields": {
+      "title": "Kanojo Okarishimasu 2",
+      "start_date": "2019-02-02",
+      "end_date": "2022-02-02",
+      "trailer_file": "John.Wick.2014.1080p.BluRay.sample_UataoSU.mkv",
+      "poster_file": "posters/kanojo-okarishimasu-episode-2-1428_NSyKVxX.jpg",
+      "releasedate": "2022-02-02",
+      "content_rating": "4.4",
+      "genre_tags": "Comedy, Family, Adventure, Animation",
+      "description": "A Japanese manga series written and illustrated by Reiji Miyajima. It has been serialized in Kodansha's Weekly Shonen Magazine since July 2017, and has been compiled into twenty-four volumes as of December 2021.",
+      "displayornot": true,
+      "actors": "Reiji Miyajima",
+      "views": 0
+    }
+  },
+  {
+    "model": "content.tvshow",
+    "pk": 6,
+    "fields": {
+      "title": "Kanojo Okarishimasu 3",
+      "start_date": "2022-02-03",
+      "end_date": "2022-02-02",
+      "trailer_file": "videoplayback_2_ufIc96D.mp4",
+      "poster_file": "posters/Rent_a_Girlfriend.jpg",
+      "releasedate": "2022-02-03",
+      "content_rating": "4.4",
+      "genre_tags": "Comedy, Family, Adventure, Animation",
+      "description": "A Japanese manga series written and illustrated by Reiji Miyajima. It has been serialized in Kodansha's Weekly Shonen Magazine since July 2017, and has been compiled into twenty-four volumes as of December 2021.",
+      "displayornot": true,
+      "actors": "Reiji Miyajima",
+      "views": 0
+    }
+  },
+  {
+    "model": "content.episode",
+    "pk": 7,
+    "fields": {
+      "tv_show": 4,
+      "title": "1",
+      "air_date": "2019-02-02",
+      "episode_num": 1,
+      "season_num": 1,
+      "description": "A Japanese manga series written and illustrated by Reiji Miyajima. It has been serialized in Kodansha's Weekly Shonen Magazine since July 2017, and has been compiled into twenty-four volumes as of December 2021.",
+      "movie_file": "Kanojo_Okarishimasu_-_01.mkv",
+      "subtitle_file": "English_WlJgyU0.srt",
+      "displayornot": true,
+      "views": 0
+    }
+  },
+  {
+    "model": "content.episode",
+    "pk": 8,
+    "fields": {
+      "tv_show": 4,
+      "title": "3",
+      "air_date": "2019-02-02",
+      "episode_num": 3,
+      "season_num": 1,
+      "description": "A Japanese manga series written and illustrated by Reiji Miyajima. It has been serialized in Kodansha's Weekly Shonen Magazine since July 2017, and has been compiled into twenty-four volumes as of December 2021.",
+      "movie_file": "Kanojo_Okarishimasu_-_03.mkv",
+      "subtitle_file": "English_6Kuvzch.srt",
+      "displayornot": true,
+      "views": 0
+    }
+  },
+  {
+    "model": "content.episode",
+    "pk": 9,
+    "fields": {
+      "tv_show": 4,
+      "title": "2",
+      "air_date": "2019-02-02",
+      "episode_num": 2,
+      "season_num": 1,
+      "description": "A Japanese manga series written and illustrated by Reiji Miyajima. It has been serialized in Kodansha's Weekly Shonen Magazine since July 2017, and has been compiled into twenty-four volumes as of December 2021.",
+      "movie_file": "Kanojo_Okarishimasu_-_02_Utc3IWq.mkv",
+      "subtitle_file": "English_QzpKSwL.srt",
+      "displayornot": true,
+      "views": 0
+    }
+  },
+  {
+    "model": "content.episode",
+    "pk": 10,
+    "fields": {
+      "tv_show": 4,
+      "title": "2",
+      "air_date": "2019-02-02",
+      "episode_num": 2,
+      "season_num": 1,
+      "description": "A Japanese manga series written and illustrated by Reiji Miyajima. It has been serialized in Kodansha's Weekly Shonen Magazine since July 2017, and has been compiled into twenty-four volumes as of December 2021.",
+      "movie_file": "Kanojo_Okarishimasu_-_02_8BDhqfB.mkv",
+      "subtitle_file": "English_cCSRY3x.srt",
+      "displayornot": true,
+      "views": 0
+    }
+  },
+  {
+    "model": "content.episode",
+    "pk": 11,
+    "fields": {
+      "tv_show": 6,
+      "title": "1",
+      "air_date": "2022-02-02",
+      "episode_num": 1,
+      "season_num": 2,
+      "description": "A Japanese manga series written and illustrated by Reiji Miyajima. It has been serialized in Kodansha's Weekly Shonen Magazine since July 2017, and has been compiled into twenty-four volumes as of December 2021.",
+      "movie_file": "Kanojo_Okarishimasu_-_05.mkv",
+      "subtitle_file": "English_cIp1PUr.srt",
+      "displayornot": true,
+      "views": 0
+    }
+  },
+  {
+    "model": "content.episode",
+    "pk": 12,
+    "fields": {
+      "tv_show": 6,
+      "title": "2",
+      "air_date": "2022-02-02",
+      "episode_num": 2,
+      "season_num": 2,
+      "description": "A Japanese manga series written and illustrated by Reiji Miyajima. It has been serialized in Kodansha's Weekly Shonen Magazine since July 2017, and has been compiled into twenty-four volumes as of December 2021.",
+      "movie_file": "Kanojo_Okarishimasu_-_06.mkv",
+      "subtitle_file": "English_rJc91OX.srt",
+      "displayornot": true,
+      "views": 0
+    }
+  },
+  {
+    "model": "content.episode",
+    "pk": 13,
+    "fields": {
+      "tv_show": 5,
+      "title": "3",
+      "air_date": "2022-02-02",
+      "episode_num": 3,
+      "season_num": 2,
+      "description": "A Japanese manga series written and illustrated by Reiji Miyajima. It has been serialized in Kodansha's Weekly Shonen Magazine since July 2017, and has been compiled into twenty-four volumes as of December 2021.",
+      "movie_file": "Kanojo_Okarishimasu_-_07.mkv",
+      "subtitle_file": "English_4dBD3N6.srt",
+      "displayornot": true,
+      "views": 0
+    }
+  },
+  {
+    "model": "content.termsconditionlisting",
+    "pk": 1,
+    "fields": {
+      "about": "data",
+      "terms": "data",
+      "privacypolicy": "Privacy policy explains our practices, regarding the collection, use, and disclosure of certain information. This includes your personal information in connection with Cipherflix services.<br/>\r\nPlease visit our online help center if you have any questions or require any assistance regarding our services.\r\nWhen contacting us we will need to authenticate your identity, for your safety and ours before fulfilling your request.\r\nWe receive and store information about you such as;\r\n<br/><br/>\r\n1)\tInformation you provide us with: Name, Email address, Payment method, Telephone number, and other identifiers you might use.\r\n<br/>\r\n2)\tInformation about you when you use our services such as interaction with our customer service, when you rate us, account settings, and taste preference.<br/>\r\n3)\tInformation regarding your network, network devices, and other devices that you might use to access our services.<br/>\r\n4)\tInformation regarding your activity on Cipherflix such as title selection, shows you have watched, search queries, and a list of shows you might want to watch.<br/><br/>\r\nWe protect this information according to our privacy policy, plus any additional restrictions imposed by the source of the data.<br/>\r\nThese sources could include: determining a location based on your IP address to customize our services with the help of services providers. Information to secure our systems, prevent fraud and help protect the security of Cipherflix account by our security service providers. <br/>Information regarding payments, account balances, account updates based on their relationship with you by our payment service providers.<br/>\r\nWe use this information to provide, enhance and personalize, and administer our services, to process your registration, your payments, and to communicate with you on these services.",
+      "faq": "<b><strong>What is Cipherflix?</b></strong>\r\n<br/>\r\nCipherflix is an online streaming platform that offers you a variety of entertainment: movies, TV shows, kid's shows, and free e-books. You can watch as much as you want, whenever you want. There�s entertainment for all.\r\n<br/><br/>\r\n<b><strong>How do I sign up?<br/></b></strong>\r\nBy simply opening the Cipherflix website and creating an account.\r\n<br/><br/>\r\n<b><strong>What Subscription options are available?<br/><br/></b></strong>\r\n<b><strong>Which devices can I access Cipherflix?<br/></b></strong>\r\nCipherflix can be accessed on all mobile phones and laptops/PC.\r\n\r\n<b><strong>Which countries can I access Cipherflix?</b></strong><br/>\r\nIn all English-speaking counties.\r\n\r\n<b><strong>How do I  change/reset my password?<br/><br/>\r\n<a style=\"color:#ffffff;\" href=\"accounts/password/change/\">Click to change/ reset password</a>",
+      "pricing": "Pricing information not updated",
+      "contact": "Contact information not updated"
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 1,
+    "fields": { "domain": "cipherflix.com", "name": "cipherflix.com" }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "email": "admin@admin.com",
+      "verified": true,
+      "primary": false
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "email": "testadmin@admin.com",
+      "verified": false,
+      "primary": false
+    }
+  },
+  {
+    "model": "account.emailaddress",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "email": "sdsdsdsd@asd.com",
+      "verified": false,
+      "primary": true
+    }
+  },
+  {
+    "model": "subscriptions.subscriptionplan",
+    "pk": "3a074c82-31b8-42c8-ada6-9bbfccd653f9",
+    "fields": {
+      "plan_name": "Cipherflix Monthly",
+      "slug": null,
+      "plan_description": "A month's subscription to Cipherflix",
+      "group": null,
+      "grace_period": 1,
+      "tags": []
+    }
+  },
+  {
+    "model": "subscriptions.plancost",
+    "pk": "2c33297f-d09f-4166-8f02-01e12534a9ff",
+    "fields": {
+      "plan": "3a074c82-31b8-42c8-ada6-9bbfccd653f9",
+      "slug": null,
+      "recurrence_period": 1,
+      "recurrence_unit": "0",
+      "cost": "5.0000"
+    }
+  },
+  {
+    "model": "subscriptions.usersubscription",
+    "pk": "2c2699c5-aa45-4741-9355-7338c40549bd",
+    "fields": {
+      "user": 2,
+      "subscription": "2c33297f-d09f-4166-8f02-01e12534a9ff",
+      "date_billing_start": "2022-02-01T19:57:07.605Z",
+      "date_billing_end": null,
+      "date_billing_last": "2022-02-01T19:57:07.605Z",
+      "date_billing_next": "2022-03-04T06:26:07.125Z",
+      "active": true,
+      "cancelled": false
+    }
+  },
+  {
+    "model": "subscriptions.subscriptiontransaction",
+    "pk": "78785db5-7b7a-47aa-9bc4-336ae038e05f",
+    "fields": {
+      "user": 2,
+      "subscription": "2c33297f-d09f-4166-8f02-01e12534a9ff",
+      "date_transaction": "2022-02-01T19:57:07.612Z",
+      "amount": "5.0000"
+    }
+  }
+]

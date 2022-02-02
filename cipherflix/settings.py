@@ -119,9 +119,13 @@ WSGI_APPLICATION = 'cipherflix.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'defaultdb',
+        'USER': 'doadmin',
+        'PASSWORD': 'hVALNoP9IosEmbh6',
+        'HOST': 'db-postgresql-fra1-27219-do-user-9938300-0.b.db.ondigitalocean.com',
+        'PORT': '25060',
     }
 }
 FILE_UPLOAD_HANDLERS = (
