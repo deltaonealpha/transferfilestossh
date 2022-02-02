@@ -1,6 +1,7 @@
 Django==3.2.11
 coinbase-commerce
 gunicorn
+whitenoise
 django-crispy-forms
 django-allauth
 django-taggit
