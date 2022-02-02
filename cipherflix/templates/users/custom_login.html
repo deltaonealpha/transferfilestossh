@@ -1,5 +1,5 @@
 {% extends "users/base.html" %}
-
+{% load static %}
 {% load i18n %}
 
 {% block head_title %}{% trans "Signup" %}{% endblock %}
@@ -16,7 +16,7 @@
     {% if redirect_field_value %}
     <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
     {% endif %}<a style="color: #adadad;font-family: 'Nunito Sans', sans-serif;" class="button secondaryAction" href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a><br/><button class="primaryAction btn btn-primary" type="submit" style="font-family: 'Nunito Sans', sans-serif;margin-top: 15px;background: rgba(255,255,255,0.8);border-radius: 5px;border-style: none;border-bottom-style: none;padding-top: 13px;padding-bottom: 13px;padding-right: 17px;padding-left: 17px;color: #181718;z-index: 100;margin-right: 15px;">{% trans "Sign In" %}</button>
-<br /><img src="../../../../../../../../../static/assets/img/cipherflixlogo.png" style="height: 35px;margin-top: 25px;" />
+<br /><img src={% static 'assets/img/cipherflixlogo.png' %} style="height: 35px;margin-top: 25px;" />
   </form>
 
   <style>
