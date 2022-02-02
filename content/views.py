@@ -30,22 +30,12 @@ class ShowMovie(View):
         count = Movie.objects.aggregate(count=Count('id'))['count']
         tv_count = TvShow.objects.aggregate(count=Count('id'))['count']
         ebook10 = Ebook.objects.filter(displayornot=True).order_by('-title')[:10]
-        random_index = 7
+        randommovie = Movie.objects.filter(displayornot=True).last()
+        randomtv = TvShow.objects.filter(displayornot=True).last()
         try:
-            randommovie = Movie.objects.get(pk=random_index)
+            randomtv10 = TvShow.objects.filter(displayornot=True).last().episodes.order_by('episode_num')[:3]
         except:
-            random_index = 7
-            randommovie = Movie.objects.get(pk=random_index)
-        tv_random_index = 3
-        try:
-            randomtv = TvShow.objects.get(pk=tv_random_index)
-        except:
-            tv_random_index = 3
-            randomtv = TvShow.objects.get(pk=tv_random_index)
-        try:
-            randomtv10 = TvShow.objects.get(pk=tv_random_index).episodes.order_by('episode_num')[:3]
-        except:
-            randomtv10 = TvShow.objects.get(pk=tv_random_index).episodes.order_by('episode_num')
+            randomtv10 = TvShow.objects.filter(displayornot=True).last().episodes.order_by('episode_num')
         print(randomtv10)
         return render(request,'../templates/homeindex.html',{
         'latestmovie10':latestmovie10,
@@ -166,6 +156,18 @@ class faqlisting(View):
     def get(self,request,*args, **kwargs):
         aboutinfo = termsconditionlisting.objects.all()
         return render(request,'../templates/faq.html',{
+        'aboutinfo':aboutinfo,
+        })
+class pricinglisting(View):
+    def get(self,request,*args, **kwargs):
+        aboutinfo = termsconditionlisting.objects.all()
+        return render(request,'../templates/pricing.html',{
+        'aboutinfo':aboutinfo,
+        })
+class contactlisting(View):
+    def get(self,request,*args, **kwargs):
+        aboutinfo = termsconditionlisting.objects.all()
+        return render(request,'../templates/contact.html',{
         'aboutinfo':aboutinfo,
         })
 class profileview(View):

@@ -28,6 +28,7 @@ urlpatterns = [
     path(r'^progressbarupload/', include('progressbarupload.urls')),
     path('subscriptions/', include('subscriptions.urls')),
     path('payments/', include('payments.urls')),
+    path('dashboard/', include('dashboard.urls')),
     path('admin/', admin.site.urls),
     path('admin/filebrowser/', site.urls),
     path('', include('content.urls')), # new

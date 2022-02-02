@@ -18,7 +18,7 @@ from django.urls import path, include
 from django.contrib.auth import views as auth
 from django.conf.urls import url
 from filebrowser.sites import site
-from content.views import ReadEbook, ShowMovie,PlayMovie,ListAllMovie,aboutlisting,privacypolicylisting,termlisting,PlayTv,PlayEpTv,ListAllTv,search_product,homeindex,profileview,ListWhatsnEw,faqlisting,ListAllEbooks
+from content.views import ReadEbook, ShowMovie,PlayMovie,ListAllMovie,aboutlisting,privacypolicylisting,termlisting,PlayTv,PlayEpTv,ListAllTv,search_product,homeindex,profileview,ListWhatsnEw,faqlisting,ListAllEbooks,pricinglisting,contactlisting,ListAllTv
 urlpatterns = [
     path('watch',ShowMovie.as_view(),name='homeindex'),
     path('profile',profileview.as_view(),name='profileview'),
@@ -27,12 +27,12 @@ urlpatterns = [
     path('ebooks',ListAllEbooks,name='ebookslisting'),
     path('whatsnew',ListWhatsnEw,name='ListWhatsnEw'),
     path('faq',faqlisting.as_view(),name='search'),
-    path('contact',search_product,name='search'),
-    path('pricing',search_product,name='search'),
     path('search',search_product,name='search'),
     path('about',aboutlisting.as_view(),name='aboutlisting'),
     path('termsofusage',termlisting.as_view(),name='privacypolicylisting'),
     path('faq',faqlisting.as_view(),name='search'),
+    path('pricing',pricinglisting.as_view(),name='search'),
+    path('contact',contactlisting.as_view(),name='search'),
     path('privacypolicy',privacypolicylisting.as_view(),name='termlisting'),
     path('',homeindex.as_view(),name='homepageintro'),
     url(r'^play/(?P<id>[0-9]+)/$', PlayMovie.as_view(), name = 'playmovie'),

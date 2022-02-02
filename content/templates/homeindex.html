@@ -97,7 +97,7 @@
         <div class="row" style="text-align: left;">
             <div class="col text-center" style="padding-right: 0px;padding-left: 0px;text-align: left;">
             <div class="videohover" style="overflow: hidden;background: #1f1f1f;border-radius: 5px;">
-                <video width="560" height="315" style="width: 300px;position: relative;left: 1px;height: 170px;border-radius: 5px;z-index: 1;margin-top: 5px;" poster="{{ i.poster_file.url }}" loop onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                <video width="560" height="315" style="width: 300px;position: relative;left: 1px;height: 170px;border-radius: 5px;z-index: 1;margin-top: 5px;object-fit: cover;" poster="{{ i.poster_file.url }}" loop onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
                 <source src="{{ i.trailer_file.url }}" type="video/webm"></video>
                 <div class="hide" style="padding-top: 15px;padding-bottom: 15px;padding-left: 15px;padding-right: 15px;">
                     <div style="text-align: left;margin-bottom: 10px;">
@@ -133,11 +133,11 @@
         <div class="container">
             <div class="row" style="margin-bottom: 15px;">
                 <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="background: #1f1f1f;border-radius: 5px;padding-top: 15px;padding-right: 15px;padding-bottom: 15px;padding-left: 15px;">
-                    <div style="border-radius: 5px;padding: 0px;background: linear-gradient(92deg, #101010, #303030);"><img style="width: 100%;height: 350px;border-radius: 5px;object-fit: cover;object-position: top;" src="{{ randomtv.poster_file.url }}">
-                        <div style="padding: 10px;margin-top: -100px;margin-bottom: -15px;">
-                            <h1 class="text-truncate" style="font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 35px;margin-bottom: 0px;">{{ randomtv.title }}<br></h1>
-                            <p class="text-truncate" style="font-family: 'Open Sans', sans-serif;color: #ffffff;font-size: 16px;margin-bottom: 0px;margin-top: 5px;">{{ randomtv.description }}<br></p>
-                        </div>
+                    <div style="border-radius: 5px;padding: 0px;background: linear-gradient(92deg, #101010, #303030);"><img style="width: 100%;height: 350px;border-radius: 5px;object-fit: cover;object-position: top;" src="{{ randomtv.poster_file.url }}"><div style="background-color: #000000a4;height:100%;width:100%;">
+                        <div style="padding: 10px;margin-top: -100px;margin-bottom: -15px;background-color: #000000;">
+                            <h1 class="text-truncate" style="font-family: 'Nunito Sans', sans-serif;color: #000000;font-size: 35px;margin-bottom: 0px;">{{ randomtv.title }}<br></h1>
+                            <p class="text-truncate" style="font-family: 'Open Sans', sans-serif;color: #000000;font-size: 16px;margin-bottom: 0px;margin-top: 5px;">{{ randomtv.description }}<br></p>
+                        </div></div>
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
                                 <a href="playtv/{{ randomtv.id }}/{{ i.id }}">
                                     <div style="height: 195px;border-radius: 5px;padding: 0px;background: linear-gradient(92deg, #101010, #303030);">
                                         <div style="height: 100px;background: linear-gradient(#121212, rgba(48,48,48,0.8) 25%, rgba(48,48,48,0.6) 40%, rgba(48,48,48,0.4) 60%, rgba(48,48,48,0.2) 80%, rgba(48,48,48,0) 100%);border-radius: 5px;padding: 0px;position: relative;z-index: 100;width: 100%;"></div>
-                                        <div><img style="width: 100%;height: 150px;border-radius: 5px;margin-top: -100px;" src="{{ randomtv.poster_file.url }}"></div>
+                                        <div><img style="width: 100%;height: 150px;border-radius: 5px;margin-top: -100px;object-fit: cover;object-position: top;" src="{{ randomtv.poster_file.url }}"></div>
                                         <div style="padding: 10px;font-weight: bold;">
                                             <p class="text-truncate" style="margin-bottom: 0px;font-family: 'Nunito Sans', sans-serif;color: #ffffff;font-size: 16px;margin-top: 0px;">{{ i.title }}<br></p>
                                         </div>
@@ -180,7 +180,7 @@
             <div class="row" style="text-align: left;">
                 <div class="col text-center" style="padding-right: 0px;padding-left: 0px;text-align: left;">
                 <div class="videohover" style="overflow: hidden;background: #1f1f1f;border-radius: 5px;">
-                    <video width="560" height="315" style="width: 300px;position: relative;left: 1px;height: 170px;border-radius: 5px;z-index: 1;margin-top: 5px;" poster="{{ i.poster_file.url }}" loop onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+                    <video width="560" height="315" style="width: 300px;position: relative;left: 1px;height: 170px;border-radius: 5px;z-index: 1;margin-top: 5px;object-fit: cover;" poster="{{ i.poster_file.url }}" loop onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
                     <source src="{{ i.trailer_file.url }}" type="video/webm"></video>
                     <div class="hide" style="padding-top: 15px;padding-bottom: 15px;padding-left: 15px;padding-right: 15px;">
                         <div style="text-align: left;margin-bottom: 10px;">

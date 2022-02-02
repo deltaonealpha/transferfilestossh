@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-a_tj_zb7w#@+5cf)rdgte^!td)e2$jw6#ek8@kic43!(5t+85&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 SITE_ID = 1
 
@@ -79,6 +79,7 @@ INSTALLED_APPS = [
     'analytical',
     'subscriptions',
     'payments', 
+    'dashboard',
 ]
 SITE_ID = 1
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
